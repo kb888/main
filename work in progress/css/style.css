@@ -1,0 +1,176 @@
+
+body {
+	position: relative;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #000000;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  min-height: auto;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  background-image: url(../img/wood.jpeg);
+}
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+img {
+	max-height: 560px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.products {
+	max-height: 560px;
+	float: right;
+}
+
+.products:hover {
+	background-color: red;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	background-color: #101010;
+	background: linear-gradient(to bottom, #333333, #000000);
+	color: white;
+}
+
+.nav {
+	height: 10px;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix-top {
+	position: absolute;
+	width: 100%;
+}
+
+.affix + container-fluid,
+.affix-top + container-fluid {
+	padding-top: 50px;
+}
+
+.space {
+	height: 40px;
+	background-color: #000000;
+}
+
+section:nth-child(even) {
+background-color: lightgrey;
+}
+
+section:nth-child(odd) {
+background-color: white;
+}
+
+section {
+	padding-top: 50px;
+	min-height: 500px;
+}
+
+.section_text {
+	font-size: 1.8em;
+	font-weight: 250;
+	text-align: justify;
+	display: inline-block;
+	float: none;
+	color: #111111;
+}
+
+
+/* social buttons */
+.social {
+	width: 55px;
+}
+
+.social:hover {
+	border: none;
+}
+
+#fb {
+	font-size: 2.5em;
+	text-align: center;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 25px;
+}
+
+#fb:hover {
+	background-color: #4668b3 ;
+	color: white;
+	cursor: pointer;
+}
+
+#twtr {
+	font-size: 2.5em;
+	text-align: center;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 25px;
+}
+
+#twtr:hover {
+	background-color: #3095d3;
+	color: white;
+	cursor: pointer;
+}
+#ytb {
+	font-size: 2.5em;
+	text-align: center;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 25px;
+}
+
+#ytb:hover {
+	background-color: #d94348;
+	color: white;
+	cursor: pointer;
+}
+
+#social_ic {
+	width: 40%;
+}
+
+a {
+	color: initial;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
+}
